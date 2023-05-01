@@ -5,60 +5,46 @@
     </title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <div class="main-container">
-      <div class="banner">
-        <h1>
-          Samuel Schmidt
-        </h1>
-        <nav>
-          <a href="https://drive.google.com/file/d/1unb6z5ibeWnrk5rR60b3GYPzl2Fqfa-k/view?usp=sharing">Resume</a>
-          <a href="https://github.com/tdimhcsleumas">Github</a>
-          <a href="https://www.linkedin.com/in/samuel-schmidt-67977a179/">LinkedIn</a>
-        </nav>
+      <div> <!-- intro -->
+        <h2>
+          Hello! &#127752;
+        </h2>
+        <p>
+          I am Samuel Schmidt (he/him), a California based Software and Data Engineer, currently employed by <strong><a href="https://thewaltdisneycompany.com/" target="_blank">Disney</a></strong>.
+          In addition to data engineering, I'm also interested in
+          working with filesystems, and have concurrently been working with the <strong><a href="https://ssrc.us/students.html" target="_blank">Storage Systems Research Center</a></strong>
+          to pursue ZNS-compatible filesystem implementations. I like to think about
+          how data gets persisted to disk and how filesystems, in particular, can improve the end user experience.
+        </p>
+        <p>
+          In addition to systems, I also like running and have revitalized my training attempts after a pretty extended hiatus after high school &#128523;.
+        </p>
       </div>
-      <p>
-        Welcome!
-      </p>
-      <p>
-        I am a data engineer currently employed by Disney Streaming Services.
-        My chief interests include web development and systems programming. I graduated from
-        UCSC with a Bachelor's of Science in Computer Science.
-      </p>
-      <p>
-        Some of my repositories (especially ones from school assignments) are marked as
-        private. If for some reason you'd like to see my school work, feel free to contact
-        me.
-      </p>
+
+      <div> <!-- skills -->
+        <h2>My Skills &#128640;</h2>
+        <p>
+          <ul>
+            <li>Programming: C, Scala, Bash, Javascript</li>
+            <li>Tools: Git, QEMU, YCSB, AWS, Airflow, Databricks</li>
+            <li>General: filesystem development, software design, DevOps, Data Engineering</li>
+          </ul>
+        </p>
+      </div>
+
+      <div> <!-- contact -->
+        <h2>Contact &#9749;</h2>
+        <p>
+          <strong><a href="mailto:sadschmi@ucsc.edu">Say hi</a></strong>, check out my
+          <strong><a href="https://drive.google.com/file/d/1so1LydjWWHIAPnYY-aT6JpojcCakknF7/view" target="_blank">resume</a></strong>, and
+          connect with me on <strong><a href="https://www.linkedin.com/in/samuel-schmidt-67977a179/" taget="_blank">LinkedIn</a></strong>.
+        </p>
+      </div>
     </div>
   </body>
-  <style>
-    body {
-      display: flex;
-      justify-content: space-around;
-    }
-
-    a {
-      text-decoration: none;
-    }
-
-    .main-container {
-      width: 980;
-    }
-
-    h1 {
-      margin-bottom: 16px;
-    }
-
-    .banner {
-      width: 100%;
-      border-bottom: 1px solid #eaecef;
-    }
-
-    html {
-      font-family: 'Roboto', sans-serif;
-    }
-  </style>
 </html>
